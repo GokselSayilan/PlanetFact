@@ -1,0 +1,130 @@
+@media (min-width:1000px) {
+    .navbar {
+        width: 100%;
+        padding-top: 20px;
+        position: relative;
+        z-index: 5;
+    }
+
+    .navbarWrapper {
+        padding: 0 40px 0 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    .navbarLeftLogo {
+        font-size: 28px;
+        letter-spacing: -1px;
+        color: rgb(255, 255, 255);
+    }
+
+    .navbarRightLinks {
+        display: flex;
+        gap: 33px;
+    }
+
+    .navbarRightLink {
+        cursor: pointer;
+        color: white;
+        opacity: 75%;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    .navbarRightLink:hover {
+        opacity: 100%;
+    }
+
+    .navbarSep {
+        margin-top: 20px;
+        border: 1px solid #979797;
+        opacity: 20%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    .navbar {
+        width: 100%;
+        position: relative;
+        z-index: 5;
+    }
+
+    .navbarWrapper {
+        padding: 25px 52px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbarLeftLogo {
+        font-size: 28px;
+        letter-spacing: -1px;
+        color: rgb(255, 255, 255);
+        margin-bottom: 30px;
+    }
+
+    .navbarRightLinks {
+        display: flex;
+        gap: 33px;
+    }
+
+    .navbarRightLink {
+        cursor: pointer;
+        color: white;
+        opacity: 75%;
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+
+    .navbarSep {
+        border: 1px solid #979797;
+        opacity: 20%;
+    }
+}
+
+.navbarRightMobileMenu {
+    display: none;
+}
+
+@media (max-width:500px) {
+    .navbar {
+        width: 100%;
+        position: relative;
+        z-index: 5;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbarWrapper {
+        width: 330px;
+        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbarRightMobileMenu {
+        display: block;
+    }
+
+    .navbarLeftLogo {
+        font-size: 28px;
+        letter-spacing: -1px;
+        color: rgb(255, 255, 255);
+    }
+
+    .navbarRightLinks {
+        display: none;
+    }
+
+    .navbarSep {
+        border: 1px solid #979797;
+        opacity: 20%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

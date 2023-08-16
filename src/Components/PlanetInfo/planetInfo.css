@@ -1,0 +1,120 @@
+@media (min-width:1000px) {
+    .planetInfo {
+        position: fixed;
+        bottom: 60px;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .planetInfoWrapper {
+        display: flex;
+        gap: 30px;
+    }
+    
+    .planetInfoCard {
+        width: 250px;
+        height: 125px;
+        border: 1px solid #d8d8d840;
+        padding: 20px 0 27px 23px;
+    }
+    
+    .planetInfoCardTitle {
+        color: rgba(255, 255, 255, 0.481);
+        text-transform:uppercase;
+        margin-bottom: 5px;
+    }
+    
+    .planetInfoCardValue {
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    .planetInfo {
+        position: fixed;
+        bottom: 36px;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .planetInfoWrapper {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .planetInfoCard {
+        width: 160px;
+        height: 90px;
+        border: 1px solid #d8d8d840;
+        padding: 16px 0 20px 15px ;
+    }
+    
+    .planetInfoCardTitle {
+        color: rgba(255, 255, 255, 0.481);
+        text-transform:uppercase;
+        margin-bottom: 6px;
+        font-size: 8px;
+    }
+    
+    .planetInfoCardValue {
+        font-size: 24px;
+        color: white;
+        text-transform: uppercase;
+        line-height: 24px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .planetInfo {
+        position: absolute;
+        bottom: -250px;
+        width: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .planetInfoWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .planetInfoCard {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        height: 50px;
+        border: 1px solid #d8d8d840;
+        padding: 9px 24px 13px 24px ;
+    }
+    
+    .planetInfoCardTitle {
+        color: rgba(255, 255, 255, 0.481);
+        text-transform:uppercase;
+        font-size: 8px;
+    }
+    
+    .planetInfoCardValue {
+        font-size: 20px;
+        color: white;
+        text-transform: uppercase;
+        line-height: 20px;
+    }
+
+
+}
+

@@ -1,0 +1,281 @@
+@media (min-width:1000px) {
+    .content {
+        position: relative;
+    }
+
+    .contentWrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 165px;
+    }
+
+    .contentPlanetImgWrapper {
+        display: flex;
+        height: 660px;
+        width: 100%;
+        justify-content: center;
+        margin-top: 70px;
+        align-items: center;
+        position: relative;
+        margin-right: 110px;
+    }
+
+    .planetGeologyImg {
+        position: absolute;
+        width: 130px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 100px;
+
+    }
+
+    .contentPlanetDef {
+        width: 350px;
+        margin-top: 130px;
+        position: relative;
+    }
+
+
+
+    .contentPlanetDefTitle {
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    .contentPlanetDefDesc {
+        color: rgb(201, 201, 201);
+        margin-bottom: 25px;
+        letter-spacing: 1px;
+    }
+
+    .contentPlanetDefSource {
+        color: rgba(201, 201, 201, 0.566);
+
+    }
+
+    .contentPlanetDefSourceLink {
+        color: rgba(201, 201, 201, 0.664);
+        font-weight: bold;
+        margin-right: 8px;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+
+    .contentPlanetDefStages {
+        margin-top: 40px;
+        color: white;
+        width: 350px;
+        height: 180px;
+    }
+
+    .contentPlanetDefStage {
+        display: flex;
+        padding-left: 30px;
+        gap: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.165);
+        height: 50px;
+        width: 350px;
+        align-items: center;
+        margin-bottom: 16px;
+        cursor: pointer;
+    }
+
+    .contentPlanetDefStage:hover {
+        background-color: #d8d8d846;
+
+    }
+
+    .contentPlanetDefStageNumber {
+        opacity: 50%;
+        letter-spacing: 2.5px;
+
+    }
+
+    .contentPlanetDefStageTitle {
+        font-weight: bold;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+    }
+
+
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    .content {
+        position: relative;
+    }
+
+    .contentWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    .contentPlanetImgWrapper {
+        display: flex;
+        height: 422px;
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        align-items: center;
+        position: relative;
+    }
+
+    .planetGeologyImg {
+        position: absolute;
+        width: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 60px;
+
+    }
+
+    .contentPlanetDef {
+        width: 100%;
+        position: relative;
+        display: flex;
+        gap: 70px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    .contentPlanetDefTitle {
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .contentPlanetDefDesc {
+        color: rgb(201, 201, 201);
+        margin-bottom: 25px;
+        letter-spacing: 1px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .contentPlanetDefSource {
+        color: rgba(201, 201, 201, 0.566);
+
+    }
+
+    .contentPlanetDefSourceLink {
+        color: rgba(201, 201, 201, 0.664);
+        font-weight: bold;
+        margin-right: 8px;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+
+    .contentPlanetDefStages {
+        color: white;
+        width: 280px;
+        height: 150px;
+    }
+
+    .contentPlanetDefStage {
+        display: flex;
+        padding-left: 30px;
+        gap: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.165);
+        height: 40px;
+        width: 280px;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    .contentPlanetDefStageNumber {
+        opacity: 50%;
+        letter-spacing: 2px;
+        font-size: 9px;
+
+    }
+
+    .contentPlanetDefStageTitle {
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 9px
+    }
+}
+
+@media (max-width: 500px) {
+    .content {
+        position: relative;
+    }
+
+    .contentWrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 0 24px;
+    }
+
+    .contentPlanetImgWrapper {
+        display: flex;
+        height: 256px;
+        width: 100%;
+        justify-content: center;
+        margin-top: 75px;
+        margin-bottom: 24px;
+        align-items: center;
+        position: relative;
+    }
+
+    .planetGeologyImg {
+        position: absolute;
+        width: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20px;
+
+    }
+
+    .contentPlanetDef {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+    .contentPlanetDefTitle {
+        color: white;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 16px;
+    }
+
+    .contentPlanetDefDesc {
+        color: rgb(201, 201, 201);
+        margin-bottom: 20px;
+        font-size: 11px;
+        line-height: 22px;
+        width: 300px;
+    }
+
+    .contentPlanetDefSource {
+        color: rgba(201, 201, 201, 0.566);
+
+    }
+
+    .contentPlanetDefSourceLink {
+        color: rgba(201, 201, 201, 0.664);
+        font-weight: bold;
+        margin-right: 8px;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+
+    .contentPlanetDefStages {
+        display: none;
+    }
+}
